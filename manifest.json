@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Resume Uploader",
+    "version": "1.0",
+    "description": "A Chrome extension to upload and read resume PDFs",
+    
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+   ],
+   "host_permissions": [
+      "https://api.openai.com/"
+    ]
+  }
